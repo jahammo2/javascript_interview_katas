@@ -15,9 +15,18 @@ $ gulp
 ```
 /coin_changer/jas-test.html
 ```
-You'll see the failing tests
+You'll see the failing tests. The first failing test should have this error:
+```
+TypeError: app.createChange is not a function
+```
 ###### 5 - Have interviewee make JavaScript code changes in src/js/app.js
 ```
 /coin_changer/src/js/app.js
+```
+This code will change that get the first test to pass:
+```
+app.createChange = function (num) {
+ return [];
+}
 ```
 ###### 6 - Refresh the browser to see if the new code got the tests to pass
