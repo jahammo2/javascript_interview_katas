@@ -15,9 +15,9 @@ $ gulp
 ```
 /coin_changer/jas-test.html
 ```
-You'll see your failing tests
-###### 5 - Make your JavaScript code changes in src/js/app.js
+You'll see the failing tests
+###### 5 - Make interviewee make JavaScript code changes in src/js/app.js
 ```
 /coin_changer/src/js/app.js
 ```
-###### 6 - Refresh the browser to see if you new code got the test to pass
+###### 6 - Refresh the browser to see if the new code got the tests to pass
